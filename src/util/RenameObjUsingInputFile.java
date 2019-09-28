@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class RenameObjUsingInputFile {
 
-   private static final String FILEPATH = "C:\\ANKIT PERSONAL\\STUDY\\Reference\\DS & Design Principles\\Algo & DS - part 2\\";
+   private static final String FILEPATH = "G:\\My Drive\\ANKDEV\\STUDY\\Reference\\JAVA\\Advanced Java Concurrent Patterns\\";
 
    public static void main(String[] args) {
       try (BufferedReader br = new BufferedReader(new FileReader(FILEPATH + "course.json"))) {
