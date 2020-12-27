@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class RenameObjUsingInputFile {
 
-   private static final String FILEPATH = "G:\\My Drive\\ANKDEV\\STUDY\\Reference\\JAVA\\Advanced Java Concurrent Patterns\\";
+   private static final String FILEPATH = "C:\\Users\\an645435\\Desktop\\Angular2Fundamentals\\";
 
    public static void main(String[] args) {
       try (BufferedReader br = new BufferedReader(new FileReader(FILEPATH + "course.json"))) {
@@ -34,7 +34,7 @@ public class RenameObjUsingInputFile {
    public static void renameFile(String oldNm, String newNm) {
       boolean fail = true;
       newNm = newNm.replace("#", "-");
-      File oldfile = new File(FILEPATH + oldNm + ".mp4");
+      File oldfile = new File(FILEPATH + oldNm + ".webm");
       File newfile = new File(FILEPATH + newNm + ".mp4");
 
       System.out.println(oldNm + " -- " + newNm);
